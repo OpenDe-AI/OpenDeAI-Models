@@ -9,15 +9,24 @@ Thank you for your interest in contributing to OpenDeAI-Models! This repository 
 ### 1️⃣ Submitting a New AI Model  
 To submit a new AI model, follow these steps:  
 1. **Fork the repository** and create a new branch.  
-2. Add your model under the `/models` directory with the following:  
-   - Model code  
-   - Training scripts  
-   - README with documentation  
+2. Add your model under the `/models` directory in the correct category:  
+   - `models/nlp/` (Natural Language Processing)  
+   - `models/vision/` (Computer Vision)  
+   - `models/reinforcement-learning/` (RL Models)  
 3. Submit a **Model Submission Issue** before creating a pull request.  
 4. Open a **Pull Request (PR)** with your model, linking to the issue.
 
-For guidance, use the [Model Submission Template](./ISSUE_TEMPLATE.md).  
+For guidance, use the appropriate template:  
+- 📄 [NLP Model Template](https://github.com/OpenDe-AI/OpenDeAI-Models/blob/main/models/nlp/MODEL_INFO.md)  
+- 📄 [Vision Model Template](https://github.com/OpenDe-AI/OpenDeAI-Models/blob/main/models/vision/MODEL_INFO.md)  
+- 📄 [Reinforcement Learning Model Template](https://github.com/OpenDe-AI/OpenDeAI-Models/blob/main/models/reinforcement-learning/MODEL_INFO.md)  
 
+### 📌 Required Files  
+Each model must include the following:  
+✅ `model.py` – The core model file  
+✅ `MODEL_INFO.md` – Use the correct template (linked above)  
+✅ `requirements.txt` – List dependencies (if needed)  
+✅ `example_inputs.txt` – Example inputs for testing (if applicable)  
 ---
 
 ### 2️⃣ Reporting Bugs or Issues  
