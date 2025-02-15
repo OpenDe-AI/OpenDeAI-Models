@@ -1,56 +1,55 @@
 🚀 OpenDeAI-Models
 
-Decentralized AI Model Repository
-
-📌 Overview
-
-OpenDeAI-Models is an open-source, decentralized AI model repository where contributors can submit, refine, and share AI models. Our goal is to create a community-driven hub for AI models that anyone can use, improve, and decentralize—free from corporate control.
-
-We welcome contributions in Natural Language Processing (NLP), Computer Vision, Reinforcement Learning, and more.
-
-💡 How to Use This Repository
-
-1️⃣ Browse available AI models in the /models/ directory.
-2️⃣ Download a model and integrate it into your application.
-3️⃣ Improve existing models by submitting a pull request.
-
-🛠️ How to Contribute
-
-We encourage developers, AI researchers, and enthusiasts to submit AI models, improve existing ones, and report issues.
-
-✅ Submit a Model
-	•	Follow the model submission guidelines in CONTRIBUTING.md.
-	•	Open a pull request with your model inside the appropriate category folder (/models/NLP/, /models/ComputerVision/, etc.).
-	•	Ensure the model is well-documented and tested.
-
-✅ Report Issues & Requests
-	•	Use the Issues tab to report bugs or request new AI models.
-	•	Follow our issue template for clear submissions.
-
-✅ Engage in Discussions
-	•	Join our community in GitHub Discussions to propose ideas, collaborate, and improve AI models.
+A decentralized AI model repository for open collaboration and innovation in artificial intelligence.
 
 📂 Repository Structure
 
-/models/
-├── NLP/
-│   ├── model1.json
-│   ├── model2.json
-├── ComputerVision/
-│   ├── model1.json
-│   ├── model2.json
-└── ReinforcementLearning/
-    ├── model1.json
-    ├── model2.json
+This repository organizes AI models into three main categories:
+	•	🗣️ NLP (Natural Language Processing)
+Models related to text processing, sentiment analysis, chatbots, transformers, and more.
+📍 Path: models/nlp/
+	•	👀 Vision
+Models focused on image recognition, object detection, segmentation, and related tasks.
+📍 Path: models/vision/
+	•	🤖 Reinforcement Learning
+AI models for decision-making, gaming, robotics, and autonomous agents.
+📍 Path: models/reinforcement-learning/
 
-Each model should include:
-	•	A README.md explaining usage.
-	•	A well-documented configuration file.
-	•	Training data and benchmarks (if available).
+📥 Contributing a Model
 
-📜 License
+Want to add your model? Follow these steps:
+	1.	Create a new folder inside the relevant category (e.g., models/nlp/my-text-model/).
+	2.	Include a MODEL_INFO.md file describing your model.
+	3.	Submit an issue using the “Model Submission” template.
+	4.	Open a Pull Request to propose your model addition.
 
-This project is licensed under the MIT License. You are free to use, modify, and distribute models with proper attribution.
+📝 MODEL_INFO.md Template
+
+Each model should have a MODEL_INFO.md with the following details:
+
+# Model Name
+- **Category:** (NLP, Vision, Reinforcement Learning)
+- **Description:** (Brief overview of the model)
+- **Dependencies:** (Any libraries or tools required)
+- **Training Data:** (Dataset details)
+- **Usage:** (Instructions on how to use it)
+- **License:** (Specify if different from the repo license)
+
+🔗 Get Involved
+	•	Report Issues: Found a bug or have a suggestion? Open an issue.
+	•	Discussions: Join the discussions to connect with the community.
+	•	License: This repository follows MIT License.
+
+🚀 Let’s build decentralized AI together!
+
+Commit Message for README Update
+
+Update README.md  
+- Added repository structure (NLP, Vision, Reinforcement Learning)  
+- Included guidelines for model contributions  
+- Added MODEL_INFO.md template example  
+
+Once you update the README.md with this content, commit it using the message above. Let me know when it’s done! 🚀
 
 🌐 Connect with OpenDeAI
 
